@@ -1,0 +1,19 @@
+{
+    "name": "jasco-b/query-filter",
+    "description": "query filter for laravel",
+    "type": "package",
+    "license": "Mit",
+    "authors": [
+        {
+            "name": "Jasurbek",
+            "email": "bjasurbek94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JascoB\\QueryFilter\\": "src"
+        }
+    }
+}
