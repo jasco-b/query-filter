@@ -44,6 +44,9 @@ class FilterApplier
     {
         $filterChecker = new FilterChecker($this->filterField, $this->filterClass);
 
+        if (!$value){
+            return ;
+        }
         if (!$filterChecker->check()) {
             return;
         }
