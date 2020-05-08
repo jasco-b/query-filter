@@ -102,3 +102,9 @@ class SearchController extends Controller
     }
 }
 ```
+
+## Tests
+Running tests: 
+``
+composer test
+``
